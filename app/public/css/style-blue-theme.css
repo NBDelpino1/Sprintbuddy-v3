@@ -1,0 +1,187 @@
+body {
+    background: url("../img/blue-theme/app-bg.png") no-repeat bottom center fixed;
+    background-size: cover;
+    color: #282D3A;
+    letter-spacing:1px;
+    font-family: 'Source Sans Pro', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+}
+.callout-text {
+    color: #131D21;
+    font-weight:400;
+    letter-spacing: normal;
+    margin:0 !important;
+    font-size:48px;
+}
+/* -------------- Landing Page Styles -------------- */
+#landing-page-wrapper {
+    position: relative;
+}
+#landing-sub-wrapper {
+    width:350px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+.landing-form {
+    padding:40px;
+    border-radius: 3px;
+}
+.landing-form-input {
+    background-color: transparent;
+    border:0;
+    border-radius:0;
+    border-bottom:1px solid #959598;
+    margin-bottom:40px !important;
+    box-shadow: none !important;
+    color: #959598;
+}
+.landing-form-input-addon {
+    background-color: transparent;
+    border:0;
+}
+#login-button {
+    background-color: #2A84C7;
+    color: #fff;
+    border-radius: 30px;
+    width:100%;
+    font-weight:600;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.2);
+}
+#submit {
+    background-color: #2A84C7;
+    color: #fff;
+    border-radius: 30px;
+    width:100%;
+    font-weight:600;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.2);
+}
+.logo-text {
+    font-family: 'Dosis', sans-serif;
+    color: #fff;
+    font-weight:bold;
+    letter-spacing: normal;
+}
+/* -------------- Content Page Styles -------------- */
+.banner-wrapper {
+    background: url('../img/blue-theme/form-bg.svg')no-repeat bottom center scroll;
+    background-size: cover;
+    height:600px;
+}
+.content-wrapper {
+    background-color: #fff;
+    padding:0;
+    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.35));
+}
+.question-form-input {
+    max-width:300px;
+    border-radius: 0;
+    border-color: #E6E6E6;
+}
+/*label {*/
+    /*font-size:12px;*/
+    /*font-weight:bold;*/
+    /*color: #5D6777;*/
+/*}*/
+.card {
+    border-radius: 0;
+    border-color: transparent;
+    border-bottom:1px dotted #E6E6E6;
+}
+.card-text {
+    margin-top:10px;
+}
+.select-container {
+    clear: left;
+    padding-top:20px;
+}
+.chosen-container-single .chosen-default,
+a:not([href]):not([tabindex]) {
+    background: url("../img/red-theme/select-bg.png")no-repeat !important;
+    width:200px !important;
+    height:40px !important;
+    padding-top:5px !important;
+    border-radius: 0 !important;
+    border:1px solid #E6E6E6 !important;
+    box-shadow: none !important;
+}
+.chosen-container-single .chosen-single div b {
+    background: url("../img/red-theme/down-arrow.png")no-repeat !important;
+    margin-top:15px !important;
+    margin-left:-15px !important;
+}
+.chosen-container-single .chosen-drop {
+    width:200px !important;
+    border-color: #E6E6E6 !important;
+}
+.chosen-container .chosen-results li.active-result {
+    margin-bottom:10px;
+}
+.modal-content {
+    border:0;
+    background-color: #fff;
+}
+.modal-header {
+    background-color: transparent !important;
+    border-bottom:1px dotted #ced4da;
+}
+.modal-footer {
+    background-color: transparent !important;
+    border-top:1px dotted #ced4da;
+}
+.modal-close-button {
+    background-color: #2A84C7;
+    color: #fff;
+    border-radius: 30px;
+    font-weight:bold;
+}
+.small-modal-text {
+    font-size:12px;
+    color: #5D6777;
+    text-transform: uppercase;
+}
+.modal-open .modal {
+    background-color: rgba(19, 29, 33, 0.78);
+}
+.modal-content{
+    box-shadow: 0 0 60px #131d21;
+}
+.modal-action-button {
+    background-color: transparent;
+    border:1px solid #2A84C7;
+    color: #fff;
+    border-radius: 2px;
+    font-weight:600;
+    width:120px;
+    padding-bottom:10px;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.2);
+}
+#matchImg {
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+    border:5px solid #f1f2f3;
+}
+/* ----------- Media queries ----------- */
+@media only screen and (min-width: 600px) {
+    .landing-form {
+        background-color: rgba(19, 29, 33, 0.27);
+        border-radius: 3px;
+        box-shadow: 0 0 60px rgba(0, 0, 0, 0.77);
+    }
+    #login-button {
+        width:100%;
+    }
+    #submit {
+        width:200px;
+    }
+    .content-wrapper {
+        border-radius: 2px;
+        margin-top:80px;
+        padding:40px 40px 0 40px;
+        border-top:50px solid #2A84C7;
+    }
+}
+

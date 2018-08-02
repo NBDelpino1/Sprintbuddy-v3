@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Chosen jQuery Plugin (Make selects easier to manage) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Dosis:800|Source+Sans+Pro:300,400,600" rel="stylesheet">
+    <!-- Custom Styles -->
+    <link href="css/style-blue-theme.css" rel="stylesheet">
+    <title>SprintBuddy</title>
+</head>
+<body>
+    <div class="container shadow content-wrapper">
+        <div class="container pt-5 banner-wrapper">
+            <div class="row">
+                <div class="col-sm-6 p-5">
+                    <h1 class="callout-text">Complete this form to find the closest match!</h1>
+                    <form class="mt-5">
+                        <div class="form-group">
+                            <input type="text" class="form-control question-form-input" id="name" placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control question-form-input" id="photo" placeholder="Your Photo URL">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="container questions-wrapper">
+            <div class="card content-card">
+                <div class="card-body">
+                    <img src="img/blue-theme/vector-numbers/1.svg" alt="1" class="float-left mr-3">
+                    <p class="card-text">How would you rate your HTML skills?</p>
+                    <div class="select-container">
+                        <select data-placeholder="" class="chosen-select" id="q1">
+                            <option value=""></option>
+                            <option value="1">1 (Not so good)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Rockstar Status)</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="card content-card">
+                <div class="card-body">
+                    <img src="img/blue-theme/vector-numbers/2.svg" alt="2" class="float-left mr-3">
+                    <p class="card-text">How would you rate your CSS skills?</p>
+                    <div class="select-container">
+                        <select data-placeholder="" class="chosen-select" id="q2">
+                            <option value=""></option>
+                            <option value="1">1 (Not so good)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Rockstar Status)</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="card content-card">
+                <div class="card-body">
+                    <img src="img/blue-theme/vector-numbers/3.svg" alt="3" class="float-left mr-3">
+                    <p class="card-text">How would you rate your JavaScript skills?</p>
+                    <div class="select-container">
+                        <select data-placeholder="" class="chosen-select" id="q3">
+                            <option value=""></option>
+                            <option value="1">1 (Not so good)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (I'm a Ninja)</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="card content-card">
+                <div class="card-body">
+                    <img src="img/blue-theme/vector-numbers/4.svg" alt="4" class="float-left mr-3">
+                    <p class="card-text">You rarely do something just out of sheer curiosity.</p>
+                    <div class="select-container">
+                        <select data-placeholder="" class="chosen-select" id="q4">
+                            <option value=""></option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="card content-card">
+                <div class="card-body">
+                    <img src="img/blue-theme/vector-numbers/5.svg" alt="5" class="float-left mr-3">
+                    <p class="card-text">People can rarely upset you.</p>
+                    <div class="select-container">
+                        <select data-placeholder="" class="chosen-select" id="q5">
+                            <option value=""></option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="card content-card">
+                <div class="card-body">
+                    <img src="img/blue-theme/vector-numbers/6.svg" alt="6" class="float-left mr-3">
+                    <p class="card-text">It is often difficult for you to relate to other people’s feelings.</p>
+                    <div class="select-container">
+                        <select data-placeholder="" class="chosen-select" id="q6">
+                            <option value=""></option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="card content-card">
+                <div class="card-body">
+                    <img src="img/blue-theme/vector-numbers/7.svg" alt="7" class="float-left mr-3">
+                    <p class="card-text">Truth should be more important than people’s sensitivities.</p>
+                    <div class="select-container">
+                        <select data-placeholder="" class="chosen-select" id="q7">
+                            <option value=""></option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="card content-card">
+                <div class="card-body">
+                    <img src="img/blue-theme/vector-numbers/8.svg" alt="8" class="float-left mr-3">
+                    <p class="card-text">You rarely get carried away by fantasies and ideas.</p>
+                    <div class="select-container">
+                        <select data-placeholder="" class="chosen-select" id="q8">
+                            <option value=""></option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="card content-card">
+                <div class="card-body">
+                    <img src="img/blue-theme/vector-numbers/9.svg" alt="9" class="float-left mr-3">
+                    <p class="card-text">You think that everyone’s views should be respected regardless of whether they are supported by facts or not.</p>
+                    <div class="select-container">
+                        <select data-placeholder="" class="chosen-select" id="q9">
+                            <option value=""></option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="card content-card">
+                <div class="card-body">
+                    <img src="img/blue-theme/vector-numbers/10.svg" alt="10" class="float-left mr-3">
+                    <p class="card-text">You feel more energetic after spending time with a group of people.</p>
+                    <div class="select-container">
+                        <select data-placeholder="" class="chosen-select" id="q10">
+                            <option value=""></option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body text-center">
+                    <button type="submit" class="btn" id="submit">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Modals / Alerts ----------------------------------------------------------------->
+
+    <!-- Match alert modal -->
+    <div class="modal fade" id="resultsModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title callout-text" id="exampleModalCenterTitle">Closest Match</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="text-center mt-3 mb-3">
+                        <img id="matchImg" src="" alt="best match face" class="img-responsive">
+                    </div>
+                    <div class="text-center">
+                        <h5 id="matchName" class="mt-3 mb-3"></h5>
+                    </div>
+                    <div id="action-buttons-wrapper" class="text-center mb-3">
+                        <button type="submit" class="btn modal-action-button" id="call-button">
+                            <img src="img/green-theme/phone-icon.png" alt="">
+                        </button>
+                        <button type="submit" class="btn modal-action-button" id="email-button">
+                            <img src="img/green-theme/email-icon.png" alt="">
+                        </button>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn modal-close-button" data-dismiss="modal">Dismiss</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Error alert modal -->
+    <div class="modal fade" id="alertModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <img src="img/red-theme/modal-alert-icon.png" alt="">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div>
+                        <h5 class="mt-2 callout-text">Opps...  Make sure you entered a username, photo url and answered all the questions.</h5>
+                        <p class="small-modal-tex mb-2t">PS...You donn't need a valid username or photo url, just anser the questions and your're good</p>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn modal-close-button" data-dismiss="modal">Dismiss</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script src="https://code.jquery.com/jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
+<script src="./app.js"></script>
+</body>
+</html>
