@@ -18,7 +18,6 @@ body {
     margin:0 !important;
     font-size:48px;
     animation: moveInRight 1s ease-out;
-    animation-delay: 1.5s;
     animation-fill-mode: backwards;
 }
 /* -------------- Landing Page Styles -------------- */
@@ -83,11 +82,11 @@ body {
     background-color: #fff;
     padding:0;
     filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.35));
-    animation: moveInBottom .5s ease-out .75s;
+    animation: moveInBottom ease-out .75s;
 }
 .content-form-group {
     animation: moveInBottom 1s ease-out;
-    animation-delay: 1.5s;
+    animation-delay: .5s;
     animation-fill-mode: backwards;
 }
 .question-form-input {
